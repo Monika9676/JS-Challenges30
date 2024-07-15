@@ -1,3 +1,5 @@
+//let,var,const
+
 var x=30;
 console.log(x);
 
@@ -11,11 +13,11 @@ console.log(bool);
 var a=10;
 var b="Girdhar";
 var c=false;
-var d=[a,b,c];
+var d=[a,b,c]; //array but typof gives object
 var e={name:"Monika",class:"MCA"};
 console.log(`${typeof(a)},${typeof(b)},${typeof(c)},${typeof(d)},${typeof(e)}`);
 
-//Reassigning
+//Reassigning let and const
 let t="monika";
 console.log(t);
 t="Girdhar";
